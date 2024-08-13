@@ -8,6 +8,7 @@ export default defineConfig({
   lastUpdated: true,
   title: "WSVAIO-UI",
   description: "一个简单的组件库",
+  base: "/wsvaio-ui/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
