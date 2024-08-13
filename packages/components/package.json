@@ -1,0 +1,38 @@
+{
+  "name": "wsvaio-ui",
+  "version": "1.0.0",
+  "description": "A Vue3 Component Library.",
+  "author": "wsvaio",
+  "license": "MIT",
+  "homepage": "https://github.com/wsvaio/wsvaio-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wsvaio/wsvaio-ui"
+  },
+  "keywords": [
+    "wsvaio",
+    "wsvaio-ui",
+    "component library",
+    "ui framework",
+    "ui",
+    "vue"
+  ],
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
+  "types": "dist/es/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build && esno scripts/css"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "@wsvaio-ui/utils": "workspace:^1.0.0",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "@vue/shared": "^3.4.36",
+    "less": "^4.2.0"
+  }
+}
